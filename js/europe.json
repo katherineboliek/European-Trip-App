@@ -1,0 +1,835 @@
+[
+    {
+        "countryName":"Austria",
+        "topCities":[
+          {
+            "cityName":"Salzburg",
+            "description":"Vienna is known as the city of music, has a city center filled with Baroque architecture, and has one of the highest qualities of life.",
+            "image":"../img/Salzburg.jpg"
+          },
+          {
+            "cityName":"Vienna",
+            "image":"../img/Vienna.jpg",
+            "sites": [
+              "Visit all the palaces: particularly Schonbrunn and Belvedere.",
+              "Listen to some Austrian music at the Opera House.",
+              "Wander through the Naschmarkt to see fresh produce, sweets and more."
+            ]
+          }
+        ]
+    },
+    {
+        "countryName":"Belgium",
+        "topCities":[
+          {
+            "cityName":"Antwerp",
+            "image":"../img/Antwerp.jpg"
+          },
+          {
+            "cityName":"Bruges",
+            "image":"../img/Bruges.jpg"
+          },
+          {
+            "cityName":"Brussels",
+            "description":"Brussels is one of the capitals of the European Union and is a center for international dealings.",
+            "image":"../img/Brussels.jpg",
+            "sites": [
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+    },
+    {
+        "countryName":"Bulgaria",
+        "topCities":[
+          {
+            "cityName":"Sofia",
+            "description":"Sofia has a long, diverse history starting in 7000 BCE; today it is one of the best start-up cities in the world.",
+            "image":"../img/Sofia.jpg",
+            "sites": [
+              "See art and history from the many empires that ruled over the city in the churches; Alexander Nevsky Cathedral, St. Sofia and Rotunda of St. George are only a few.",
+              "Visit the Museum of Socialist Art to discover the vestiges of the communist era in Bulgaria.",
+              "Enjoy outdoor dining while trying sirene, kebapche paired with Bulgarian wine."
+            ]
+          }
+        ]
+    },
+    {
+        "countryName":"Croatia",
+        "topCities":[
+          {
+            "cityName":"Dalmatian Coast",
+            "image":"../img/Dalmatian.jpg"
+          },
+          {
+            "cityName":"Dubrovnik",
+            "description":"Dubrovnik is the beautiful port city of Croatia, known for its well preserved ancient walls.",
+            "image":"../img/Dubrovnik.jpg",
+            "sites": [
+              "Soak in the beach life by trying the seafood before laying out on the shore.",
+              "Walk up and down the Stradun to see the nightlife.",
+              "Climb to the top of the city’s walls for a beautiful view of the city and the sea."
+            ]
+          },
+          {
+            "cityName":"Zagreb",
+            "image":"../img/Zagreb.jpg"
+          }
+        ]
+    },
+    {
+        "countryName":"Czech Republic",
+        "topCities":[
+          {
+            "cityName":"Moravia",
+            "image":"../img/Moravia.jpg"
+          },
+          {
+            "cityName":"Pilsen",
+            "image":"../img/Pilsen.jpg"
+          },
+          {
+            "cityName":"Prague",
+            "description":"Prague has been one of the top tourist destinations for many years due to its reputation as a beautiful, arts-filled city with an exciting nightlife scene.",
+            "image":"../img/Prague.jpg",
+            "sites": [
+              "Tour the Prague Castle and St. Vitus Cathedral for a look at Medieval life.",
+              "Be sure to walk across the Charles Bridge and stop in the Old Town Square.",
+              "Go out with the locals even though it probably won’t start until after midnight."
+            ]
+          }
+        ]
+    },
+    {
+        "countryName":"Denmark",
+        "topCities":[
+          {
+            "cityName":"Copenhagen",
+            "description":"Copenhagen is the known for its cool districts and many museums, resturants and bars as well as its beautiful waterfront",
+            "image":"../img/Copenhagen.jpg",
+            "sites": [
+              "Snap picture after picture of the photogenic Nyhavn Harbor; take a boat tour if you want to see more.",
+              "Bike through the city center to get to the local sites: Amalienborg Palace, Rosenborg Palace, the Borsen, and the Rundetarn.",
+              "Check out the unique and exciting neighborhoods popping up in Copenhagen such as Christiania and Orestad to better understand the modern culture."
+            ]
+          }
+        ]
+    },
+    {
+        "countryName":"England",
+        "topCities":[
+          {
+            "cityName":"Birmingham",
+            "image":"../img/Birmingham.jpg"
+          },
+          {
+            "cityName":"Brighton",
+            "image":"../img/Brighton.jpg"
+          },
+          {
+            "cityName":"Cambridge",
+            "image":"../img/Cambridge.jpg"
+          },
+          {
+            "cityName":"Liverpool",
+            "image":"../img/Liverpool.jpg"
+          },
+          {
+            "cityName":"London",
+            "description":"As one of the world's most influential and powerful cities for many centuries, London's culture and history speaks for itself.",
+            "image":"../img/London.jpg",
+            "sites": [
+              "Stop by the many historically significant landmarks in town; definitely stop by Buckingham Palace,  Westminster Abbey, the London Bridge, the Tower of London and Big Ben.",
+              "Stop by some of the many museums: the Tate, the British Museum or the Churchill Museum.",
+              "Walk along the Thames before stopping at the Globe Theater to see Shakespeare’s famous theater."
+            ]
+          },
+          {
+            "cityName":"Oxford",
+            "image":"../img/Oxford.jpg"
+          }
+        ]
+    },
+    {
+        "countryName":"Estonia",
+        "topCities":[
+          {
+            "cityName":"Tallinn",
+            "description":"Tallinn's Old Town is the main attraction for tourists with much of the history coming from the 13th and 14th centuries.",
+            "image":"../img/Tallinn.jpg",
+            "sites": [
+              "Explore the Old Town’s pubs, pharmacy, square and towers.",
+              "Learn about espionage at the Sokos Hotel Viru’s museum in the former KGB Office.",
+              "Buy some of the artisanal linen or amber from the street vendors."
+            ]
+          }
+        ]
+    },
+    {
+        "countryName":"Finland",
+        "topCities":[
+          {
+            "cityName":"Helsinki",
+            "description":"Helsinki is known for amazing culture in the Nordic region, being rated as one of the most livable cities in the world in 2015.",
+            "image":"../img/Helsinki.jpg",
+            "sites": [
+              "Tour the Design Museum, then pay attention to the city’s modern architecture and design, particularly in the design district.",
+              "Stop into a cafe to try the traditional cinnamon buns and live like the locals.",
+              "Explore the Kauppatori Market Square for fresh food and local goods."
+            ]
+          },
+          {
+            "cityName":"Turku",
+            "image":"../img/Turku.jpg"
+          }
+        ]
+    },
+    {
+        "countryName":"France",
+        "topCities":[
+          {
+            "cityName":"Aix-en-Provence",
+            "image":"../img/Aix-en-Provence.jpg"
+          },
+          {
+            "cityName":"Biarritz",
+            "image":"../img/Biarritz.jpg"
+          },
+          {
+            "cityName":"Bordeaux",
+            "image":"../img/Bordeaux.jpg"
+          },
+          {
+            "cityName":"Corsica",
+            "image":"../img/Corsica.jpg"
+          },
+          {
+            "cityName":"Cote d'Azur",
+            "image":"../img/Cote_dAzur.jpg"
+          },
+          {
+            "cityName":"Deauville",
+            "image":"../img/Deauville.jpg"
+          },
+          {
+            "cityName":"Honfleur",
+            "image":"../img/Honfleur.jpg"
+          },
+          {
+            "cityName":"Lyon",
+            "image":"../img/Lyon.jpg"
+          },
+          {
+            "cityName":"Marseille",
+            "image":"../img/Marseille.jpg"
+          },
+          {
+            "cityName":"Nice",
+            "image":"../img/Nice.jpg"
+          },
+          {
+            "cityName":"Paris",
+            "description":"Paris the the city of love, but is also the city of art, high fashion, culture and cuisine.",
+            "image":"../img/Paris.jpg",
+            "sites": [
+              "Climb the Eiffel Tower to view the city, take the stairs if you dare.",
+              "Explore the Louvre and the Musee d’Orsay; key pieces are the Mona Lisa and all of the impressionist work.",
+              "Sail down the Seine at sunset to see the city light up."
+            ]
+          },
+          {
+            "cityName":"St. Tropez",
+            "image":"../img/St-Tropez.jpg"
+          },
+          {
+            "cityName":"Toulouse",
+            "image":"../img/Toulouse.jpg"
+          }
+        ]
+    },
+    {
+        "countryName":"Georgia",
+        "topCities":[
+          {
+            "cityName":"Tbilisi",
+            "description":"The capital of Georgia has become known for its natural beauty and engaging culture.",
+            "image":"../img/Tbilisi.jpg",
+            "sites": [
+              "Check out the city squares while walking through town: Rose Revolution Square and Freedom Square in particular.",
+              "Buy some antiques from local vendors on the Mshrali Khidi.",
+              "Take part in the nightlife, try the wine while listening to local musicians."
+            ]
+          }
+        ]
+    },
+    {
+        "countryName":"Germany",
+        "topCities":[
+          {
+            "cityName":"Berlin",
+            "description":"As a center for design and technology, Berlin has one of the world's most attractive cosmopolitan cultures.",
+            "image":"../img/Berlin.jpg",
+            "sites": [
+              "Head to the Brandenburg Gate and the East Side Gallery for learn more about the split of city.",
+              "Take in the beauty of the Berlin Cathedral before touring any of the museums on Museum Island.",
+              "For amazing art, go to the Mitte to see the many art galleries."
+            ]
+          },
+          {
+            "cityName":"Cologne",
+            "image":"../img/Cologne.jpg"
+          },
+          {
+            "cityName":"Dresden",
+            "image":"../img/Dresden.jpg"
+          },
+          {
+            "cityName":"Frankfurt",
+            "image":"../img/Frankfurt.jpg"
+          },
+          {
+            "cityName":"Hamburg",
+            "image":"../img/Hamburg.jpg"
+          },
+          {
+            "cityName":"Hiddensee",
+            "image":"../img/Hiddensee.jpg"
+          },
+          {
+            "cityName":"Leipzig",
+            "image":"../img/Leipzig.jpg"
+          },
+          {
+            "cityName":"Lubeck",
+            "image":"../img/Lubeck.jpg"
+          },
+          {
+            "cityName":"Munich",
+            "image":"../img/Munich.jpg"
+          }
+        ]
+    },
+    {
+        "countryName":"Greece",
+        "topCities":[
+          {
+            "cityName":"Athens",
+            "description":"Athens is a city of a long history with many of the most impressive Greek Empire's historical sites.",
+            "image":"../img/Athens.jpg",
+            "sites": [
+              "See the ancient ruins in the Acropolis Museum after touring the Parthenon.",
+              "Try the souvlaki with tzatziki as a starting point for trying the greek cuisine.",
+              "Run on the Olympic Stadium which was rebuilt from its ruins for the first modern Olympics."
+            ]
+          },
+          {
+            "cityName":"Mykonos",
+            "image":"../img/Mykonos.jpg"
+          },
+          {
+            "cityName":"Thessaloniki",
+            "image":"../img/Salonika.jpg"
+          }
+        ]
+    },
+    {
+        "countryName":"Hungary",
+        "topCities":[
+          {
+            "cityName":"Budapest",
+            "description":"Having been a part of many different empires over the years, Budapest is a mix of many different cultural influences, creating a truly unique city with much to offer.",
+            "image":"../img/Budapest.jpg",
+            "sites": [
+              "Take a thermal bath at Szechenyi or Gellert for some relaxation.",
+              "Snag some of the local food from the Central Market Hall.",
+              "Go out for the nightlife at the bars built within the ruins of abandoned WWII homes."
+            ]
+          }
+        ]
+    },
+    {
+        "countryName":"Iceland",
+        "topCities":[
+          {
+            "cityName":"Reykjavik",
+            "description":"As one of the most popular destinations, Reykjavik is known for unparalleled natural beauty and its unique culture.",
+            "image":"../img/Reykjavik.jpg",
+            "sites": [
+              "Climb to the top of the Hallgrímskirkja church to see the aerial view of the city’s brightly colored roofs.",
+              "Make the trip to the Blue Lagoon for natural heat and beauty.",
+              "First try the reindeer or whale, then finish the night with some the local beer and liquor."
+            ]
+          }
+        ]
+    },
+    {
+        "countryName":"Ireland",
+        "topCities":[
+          {
+            "cityName":"Cork",
+            "image":"../img/Cork.jpg"
+          },
+          {
+            "cityName":"Dublin",
+            "description":"Dublin has lots to do for any interest between its five quarters including culture, commerce and history.",
+            "image":"../img/Dublin.jpg",
+            "sites": [
+              "Tour the distinct Georgian doors throughout the city.",
+              "Go to the Guinness factory and sample the beer.",
+              "Stop by the Temple bar area before heading to the Creative Quarter for some shopping."
+            ]
+          }
+        ]
+    },
+    {
+        "countryName":"Italy",
+        "topCities":[
+          {
+            "cityName":"Amalfi Coast",
+            "image":"../img/Amalfi.jpg"
+          },
+          {
+            "cityName":"Bologna",
+            "image":"../img/Bologna.jpg"
+          },
+          {
+            "cityName":"Capri",
+            "image":"../img/Capri.jpg"
+          },
+          {
+            "cityName":"Cinque Terre",
+            "image":"../img/Cinqueterre.jpg"
+          },
+          {
+            "cityName":"Florence",
+            "image":"../img/Florence.jpg"
+          },
+          {
+            "cityName":"Genoa",
+            "image":"../img/Genoa.jpg"
+          },
+          {
+            "cityName":"Milan",
+            "image":"../img/Milan.jpg"
+          },
+          {
+            "cityName":"Naples",
+            "image":"../img/Naples.jpg"
+          },
+          {
+            "cityName":"Palermo",
+            "image":"../img/Palermo.jpg"
+          },
+          {
+            "cityName":"Rome",
+            "description":"All roads lead to Rome for a reason; Rome has amazing ruins and history from the Roman empire, italian cuisine and the Catholic Vatican all within its bounds.",
+            "image":"../img/Rome.jpg",
+            "sites": [
+              "See the ancient sites: tour the Colosseum, Pantheon and Roman Forum at least. All the Roman ruins are worth seeing, but these in particular.",
+              "he Vatican: do the museum tour, it has amazing artwork and the Sistine Chapel.",
+              "Admire the artwork at the Borghese Gallery. It includes the amazing Apollo and Daphne and many other cool pieces."
+            ]
+          },
+          {
+            "cityName":"Trieste",
+            "image":"../img/Trieste.jpg"
+          },
+          {
+            "cityName":"Venice",
+            "image":"../img/Venice.jpg"
+          }
+        ]
+    },
+    {
+        "countryName":"Latvia",
+        "topCities":[
+          {
+            "cityName":"Riga",
+            "description":"Riga is filled with stunning architecture and exciting nightlife.",
+            "image":"../img/Riga.jpg",
+            "sites": [
+              "See the House of the Blackheads in the city center along with other landmarks like St. Peter’s Church and the Freedom Monument.",
+              "Enjoy the beautiful historic architecture such as the Three Brothers buildings and the Art Nouveau District.",
+              "View the art of the city: both the street art and the exquisite jewelry sold by vendors."
+            ]
+          }
+        ]
+    },
+    {
+        "countryName":"Lithuania",
+        "topCities":[
+          {
+            "cityName":"Vilnius",
+            "description":"Vilnius has an ancient charm that attracts many tourists.",
+            "image":"../img/Vilnius.jpg",
+            "sites": [
+              "Explore the Uzupis Republic, the artistic center for the city with its own constitution.",
+              "See the quirky charms of the Old Town from the street then view it from the Gediminas Tower.",
+              "Shop along Pilies Street while listening to street musicians."
+            ]
+          }
+        ]
+    },
+    {
+        "countryName":"Netherlands",
+        "topCities":[
+          {
+            "cityName":"Amsterdam",
+            "description":"Amsterdam is known for its unique culture including its red-light district and coffee shops, but it also boasts impressive museums and gorgeous canals.",
+            "image":"../img/Amsterdam.jpg",
+            "sites": [
+              "Bike over and next to the canals before getting on one of the cruises to see the city from the water.",
+              "Go museum hopping from the Anne Frank Museum to Rijksmuseum to the Van Gogh Museum.",
+              "Definitely taste the pancakes or the waffles or both!"
+            ]
+          },
+          {
+            "cityName":"Haarlem",
+            "image":"../img/Haarlem.jpg"
+          }
+        ]
+    },
+    {
+        "countryName":"Norway",
+        "topCities":[
+          {
+            "cityName":"Oslo",
+            "description":"Although Olso is one of the most expensive cities in the world, it is also known for its beauty and an amazing nightlife.",
+            "image":"../img/Oslo.jpg",
+            "sites": [
+              "Walk through the Oslo Opera House to see its stunning architecture.",
+              "See the Vigeland Park to see some greenery along with sculpture.",
+              "Go to the National Gallery and see the Scream, the Munch Museum, and the Ibsen Museum for amazing art."
+            ]
+          }
+        ]
+    },
+    {
+        "countryName":"Poland",
+        "topCities":[
+          {
+            "cityName":"Gdansk & Sopot",
+            "image":"../img/Gdansk.jpg"
+          },
+          {
+            "cityName":"Krakow",
+            "image":"../img/Krakow.jpg"
+          },
+          {
+            "cityName":"Warsaw",
+            "description":"Having been reconstructed after WWII, Warsaw is a mixture of the older remaining buildings and the new.",
+            "image":"../img/Warsaw.jpg",
+            "sites": [
+              "See the castles and royal buildings at Royal Łazienki, Wilanow Palace and Castle Square.",
+              "Visit the Museum of Warsaw Uprising that commemorates the rebuilding of the city after WWII.",
+              "Go to Praga to see art as well as some of the oldest building in the city."
+            ]
+          }
+        ]
+    },
+    {
+        "countryName":"Portugal",
+        "topCities":[
+          {
+            "cityName":"Evora",
+            "image":"../img/Evora.jpg"
+          },
+          {
+            "cityName":"Lisbon",
+            "description":"With exciting culture, a coast, and a beautiful city, there is much to love in Lisbon.",
+            "image":"../img/Lisbon.jpg",
+            "sites": [
+              "Sample the local food and drink: travesseiros, pastéis de nata, and ginjinha.",
+              "Wander through the Principe Real neighborhood to see shops and cafes.",
+              "Visit Jerónimos Monastery, Castelo de São Jorge and  Rossio & Praça da Figueira Square for a sense of the architecture of the city."
+            ]
+          },
+          {
+            "cityName":"Madiera",
+            "image":"../img/Madiera.jpg"
+          },
+          {
+            "cityName":"Porto",
+            "image":"../img/Porto.jpg"
+          }
+        ]
+    },
+    {
+        "countryName":"Romania",
+        "topCities":[
+          {
+            "cityName":"Bucharest",
+            "image":"../img/Bucharest.jpg",
+            "sites": [
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+    },
+    {
+        "countryName":"Russia",
+        "topCities":[
+          {
+            "cityName":"Moscow",
+            "description":"Moscow is known for its history as the center of the USSR, but also for its fascinating style and art.",
+            "image":"../img/Moscow.jpg",
+            "sites": [
+              "Sit in the Red Square and take in St. Basil's Cathedral.",
+              "Go to the Kremlin, tour the Armory and Diamond Fund.",
+              "Take the metro from place to place; it's one of the oldest and most beautiful."
+            ]
+          },
+          {
+            "cityName":"Perm",
+            "image":"../img/Perm.jpg"
+          },
+          {
+            "cityName":"St. Petersburg",
+            "image":"../img/St-Petersburg.jpg"
+          },
+        ]
+    },
+    {
+        "countryName":"Scotland",
+        "topCities":[
+          {
+            "cityName":"Edinburgh",
+            "description":"Edinburgh is particularly full of natural beauty, but also filled with art and Scottish heritage.",
+            "image":"../img/Edinburgh.jpg",
+            "sites": [
+              "Walk through the Old Town and the Royal Mile.",
+              "Enjoy the Scottish art at the Scottish National Gallery",
+              "Head up the Arthurs Seat for an amazing view of the whole city."
+            ]
+          },
+          {
+            "cityName":"Glasgow",
+            "image":"../img/Glasgow.jpg"
+          },
+          {
+            "cityName":"Highlands & Isle of Skye",
+            "image":"../img/Isle_of_Skye.jpg"
+          }
+        ]
+    },
+    {
+        "countryName":"Slovakia",
+        "topCities":[
+          {
+            "cityName":"Bratislava",
+            "description":"Bratislava is a popular destination for Europeans to travel to with its international appeal.",
+            "image":"../img/Bratislava.jpg",
+            "sites": [
+              "Wander through the Old Town, pay attention to the amazing architecture.",
+              "Cross the Novy Most bridge and go to the UFO viewing area to see some Soviet style and a view.",
+              "Check out the Museum of Jewish Culture to learn about the significant Jewish population that was diminished during the Holocaust."
+            ]
+          }
+        ]
+    },
+    {
+        "countryName":"Slovenia",
+        "topCities":[
+          {
+            "cityName":"Ljubljana",
+            "description":"Injected with culture from Italy, Austria, and Yugoslavia and filled with students, Ljubljana is a lively city to visit.",
+            "image":"../img/Ljubljana.jpg",
+            "sites": [
+              "Visit Metelkova City for the arts scene and the nightlife.",
+              "Walk along the river and see the Butcher's Bridge and the Triple Bridge.",
+              "Tour the Museum of Contemporary Art, the National Museum of Slovenia, and the Ethnographic Museum."
+            ]
+          },
+          {
+            "cityName":"Piran",
+            "image":"../img/Piran.jpg"
+          }
+        ]
+    },
+    {
+        "countryName":"Spain",
+        "topCities":[
+          {
+            "cityName":"Barcelona",
+            "description":"Barcelona is known for its amazing arts scene and stunning architecture.",
+            "image":"../img/Barcelona.jpg",
+            "sites": [
+              "Start at the Parc Guell for unparalleled views and the signature bright benches as your first stop on your tour of Galdi's artistic architecture throughout the city..",
+              "Head to the Sagrada Familia to see the symbol of Barcelona.",
+              "Walk along the shore and enjoy the pace of beach life."
+            ]
+          },
+          {
+            "cityName":"Bilbao",
+            "image":"../img/Bilbao.jpg"
+          },
+          {
+            "cityName":"Costa Brava",
+            "image":"../img/Costa-Brava.jpg"
+          },
+          {
+            "cityName":"Ibiza",
+            "image":"../img/Ibiza.jpg"
+          },
+          {
+            "cityName":"Madrid",
+            "image":"../img/Madrid.jpg"
+          },
+          {
+            "cityName":"Majorca",
+            "image":"../img/Majorca.jpg"
+          },
+          {
+            "cityName":"Pamplona",
+            "image":"../img/Pamplona.jpg"
+          },
+          {
+            "cityName":"San Sebastian",
+            "image":"../img/Sansebastian.jpg"
+          },
+          {
+            "cityName":"Santiago de Compostela",
+            "image":"../img/Santiagodecompostela.jpg"
+          },
+          {
+            "cityName":"Seville",
+            "image":"../img/Seville.jpg"
+          },
+          {
+            "cityName":"Tarragona",
+            "image":"../img/Tarragona.jpg"
+          },
+          {
+            "cityName":"Valencia",
+            "image":"../img/Valencia.jpg"
+          }
+        ]
+    },
+    {
+        "countryName":"Sweden",
+        "topCities":[
+          {
+            "cityName":"Goteborg",
+            "image":"../img/Goteborg.jpg"
+          },
+          {
+            "cityName":"Gotland & Faro",
+            "image":"../img/Gotland.jpg"
+          },
+          {
+            "cityName":"Lund & the Swedish Riviera",
+            "image":"../img/Lund.jpg"
+          },
+          {
+            "cityName":"Stockholm",
+            "description":"Stockholm is a city full of nature as well as Nordic culture.",
+            "image":"../img/Stockholm.jpg",
+            "sites": [
+              "Sail through the archipelago's islands.",
+              "Wander through Gamla stan, the old town of Stockholm and take in the architecture and history.",
+              "Learn about Viking ships at the Vasa Museum."
+            ]
+          }
+        ]
+    },
+    {
+        "countryName":"Switzerland",
+        "topCities":[
+          {
+            "cityName":"Basel",
+            "image":"../img/Basel.jpg"
+          },
+          {
+            "cityName":"Bern",
+            "image":"../img/Bern.jpg"
+          },
+          {
+            "cityName":"Geneva",
+            "image":"../img/Geneva.jpg"
+          },
+          {
+            "cityName":"St. Moritz",
+            "image":"../img/Stmoritz.jpg"
+          },
+          {
+            "cityName":"Zermatt",
+            "image":"../img/Zermatt.jpg"
+          },
+          {
+            "cityName":"Zurich",
+            "description":"Zurich is known for its economic focus, but also boasts great nightlife and culture.",
+            "image":"../img/Zurich.jpg",
+            "sites": [
+              "Take a boat ride on Lake Zurich to soak in the natural beauty surrounding the city.",
+              "Walk along the Limmat with the runners and check out the architecture as you go.",
+              "Try the Swiss chocolate and cheese fondue for a meal."
+            ]
+          },
+        ]
+    },
+    {
+        "countryName":"Turkey",
+        "topCities":[
+          {
+            "cityName":"Bodrum",
+            "image":"../img/Bodrum.jpg"
+          },
+          {
+            "cityName":"Cappadocia",
+            "image":"../img/Cappadocia.jpg"
+          },
+          {
+            "cityName":"Ephesus",
+            "image":"../img/Ephesus.jpg"
+          },
+          {
+            "cityName":"Istanbul",
+            "description":"As the city situated between two continents and many cultures, Istabul boasts a very diverse and multicultural experience.",
+            "image":"../img/Istanbul.jpg",
+            "sites": [
+              "Go to the Hagia Sophia, a beautiful building which used to be a catholic church before it was converted into a mosque, now remaining a museum that is truly representative of the cross-cultural nature of the city.",
+              "Visit the Grand Bazaar to find amazing goods and see some the most beautiful artisanal work in the city.",
+              "Head to the Golden Horn, the division between the modern and ancient parts of Istanbul and take a boat ride between the two sides. "
+            ]
+          }
+        ]
+    },
+    {
+        "countryName":"Ukraine",
+        "topCities":[
+          {
+            "cityName":"Kiev",
+            "description":"Kiev is a city very representative of the Ukrainian people as a whole filled with life, but also with rememberance of the horrors of WWII in the nation.",
+            "image":"../img/Kiev.jpg",
+            "sites": [
+              "For a tour of the religious sites of Kiev, head to Saint Sophia's Cathedral and Kiev Pechersk Lavra's catacombs.",
+              "Visit the PinchukArtCenter for local and international art exhibits.",
+              "Spend time in the Museum of the History of Ukraine in WWII to better understand the profound impact the war had on the city. "
+            ]
+          },
+          {
+            "cityName":"Lviv",
+            "image":"../img/Lviv.jpg"
+          }
+        ]
+    },
+    {
+        "countryName":"Wales",
+        "topCities":[
+          {
+            "cityName":"Cardiff",
+            "description":"",
+            "image":"../img/Southwales.jpg",
+            "sites": [
+              "In the heart of the city, walk through Bute Park and enjoy the nature in the city.",
+              "See a rugby match in the Principality Stadium.",
+              "Scope out the Welsh castles such as Castell Coch and Cardiff Castle."
+            ]
+          }
+        ]
+    },
+]
