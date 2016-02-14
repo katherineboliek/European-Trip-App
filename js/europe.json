@@ -590,7 +590,7 @@
           {
             "cityName":"St. Petersburg",
             "image":"../img/St-Petersburg.jpg"
-          },
+          }
         ]
     },
     {
@@ -768,7 +768,7 @@
               "Walk along the Limmat with the runners and check out the architecture as you go.",
               "Try the Swiss chocolate and cheese fondue for a meal."
             ]
-          },
+          }
         ]
     },
     {
@@ -831,5 +831,5 @@
             ]
           }
         ]
-    },
+    }
 ]
