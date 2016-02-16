@@ -17,8 +17,8 @@
 
             <div class="row">
                 <div class="col-xs-12">
-                    <h1>Test</h3>
-                    <p>Hello</p>
+                    <h1>The Ultimate European Tour</h3>
+                    <p>Everyone has their list of all the places you need to visit across Europe. This is a compilation of all the most popular destinations. Select a country to see the top places to visit and what to do at the #1 destination in the country.</p>
                     <p>{{ base.message }}</p>
                 </div>
             </div>
@@ -33,6 +33,18 @@
 
                       </select>
 
+                </div>
+                <div ng-repeat="country in countryCtrl.countries" class="col-xs-12">
+                  <h2>{{country.countryName}}</h2>
+                  <div ng-repeat="city in country.topCities">
+                    <h3>{{city.cityName}}</h3>
+                    <img ng-src="{{city.image}}" height=250px />
+                    <ol>
+                      <li>{{city.sites[0]}}</li>
+                      <li>{{city.sites[1]}}</li>
+                      <li>{{city.sites[2]}}</li>
+                    </ol>
+                  </div>
                 </div>
             </div>
 
