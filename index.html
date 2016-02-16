@@ -9,6 +9,7 @@
 
         <!-- css -->
         <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/style.css" />
     </head>
 
     <body ng-app="myApp">
@@ -34,16 +35,22 @@
                       </select>
 
                 </div>
+
                 <div ng-repeat="country in countryCtrl.countries" class="col-xs-12">
                   <h2>{{country.countryName}}</h2>
-                  <div ng-repeat="city in country.topCities">
-                    <h3>{{city.cityName}}</h3>
-                    <img ng-src="{{city.image}}" height=250px />
-                    <ol>
-                      <li>{{city.sites[0]}}</li>
-                      <li>{{city.sites[1]}}</li>
-                      <li>{{city.sites[2]}}</li>
-                    </ol>
+                  <div class="row" ng-repeat="city in country.topCities">
+                    <div class="col-md-6">
+                      <h3>{{city.cityName}}</h3>
+                      <img ng-src="{{city.image}}" height=250px />
+                    </div>
+                    <div class="col-md-6">
+                      <p class="descript">{{city.description}}</p>
+                      <ol>
+                        <li>{{city.sites[0]}}</li>
+                        <li>{{city.sites[1]}}</li>
+                        <li>{{city.sites[2]}}</li>
+                      </ol>
+                    </div>
                   </div>
                 </div>
             </div>

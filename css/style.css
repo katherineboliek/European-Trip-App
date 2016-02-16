@@ -1,0 +1,10 @@
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} /*vertical alignment within the div*/
+
+
+.descript {
+  font-weight: bold;
+}

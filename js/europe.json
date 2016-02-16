@@ -3,18 +3,18 @@
         "countryName":"Austria",
         "topCities":[
           {
-            "cityName":"Salzburg",
-            "description":"Vienna is known as the city of music, has a city center filled with Baroque architecture, and has one of the highest qualities of life.",
-            "image":"../img/Salzburg.jpg"
-          },
-          {
             "cityName":"Vienna",
+            "description":"Vienna is known as the city of music, has a city center filled with Baroque architecture, and has one of the highest qualities of life.",
             "image":"../img/Vienna.jpg",
             "sites": [
               "Visit all the palaces: particularly Schonbrunn and Belvedere.",
               "Listen to some Austrian music at the Opera House.",
               "Wander through the Naschmarkt to see fresh produce, sweets and more."
             ]
+          },
+          {
+            "cityName":"Salzburg",
+            "image":"../img/Salzburg.jpg"
           }
         ]
     },
@@ -22,22 +22,22 @@
         "countryName":"Belgium",
         "topCities":[
           {
+            "cityName":"Brussels",
+            "description":"Brussels is one of the capitals of the European Union and is a center for international dealings.",
+            "image":"../img/Brussels.jpg",
+            "sites": [
+              "Visit the Comic Strip route and head into the Comic Strip Center to see the work of talented Belgium cartoon artists.",
+              "Walk through the Grand Place and see what's in the market while taking in what has been called the most beautiful square in Europe.",
+              "Find Manneken-Pis to see what outfit he is in."
+            ]
+          },
+          {
             "cityName":"Antwerp",
             "image":"../img/Antwerp.jpg"
           },
           {
             "cityName":"Bruges",
             "image":"../img/Bruges.jpg"
-          },
-          {
-            "cityName":"Brussels",
-            "description":"Brussels is one of the capitals of the European Union and is a center for international dealings.",
-            "image":"../img/Brussels.jpg",
-            "sites": [
-              "",
-              "",
-              ""
-            ]
           }
         ]
     },
@@ -60,10 +60,6 @@
         "countryName":"Croatia",
         "topCities":[
           {
-            "cityName":"Dalmatian Coast",
-            "image":"../img/Dalmatian.jpg"
-          },
-          {
             "cityName":"Dubrovnik",
             "description":"Dubrovnik is the beautiful port city of Croatia, known for its well preserved ancient walls.",
             "image":"../img/Dubrovnik.jpg",
@@ -72,6 +68,10 @@
               "Walk up and down the Stradun to see the nightlife.",
               "Climb to the top of the city’s walls for a beautiful view of the city and the sea."
             ]
+          },
+          {
+            "cityName":"Dalmatian Coast",
+            "image":"../img/Dalmatian.jpg"
           },
           {
             "cityName":"Zagreb",
@@ -83,14 +83,6 @@
         "countryName":"Czech Republic",
         "topCities":[
           {
-            "cityName":"Moravia",
-            "image":"../img/Moravia.jpg"
-          },
-          {
-            "cityName":"Pilsen",
-            "image":"../img/Pilsen.jpg"
-          },
-          {
             "cityName":"Prague",
             "description":"Prague has been one of the top tourist destinations for many years due to its reputation as a beautiful, arts-filled city with an exciting nightlife scene.",
             "image":"../img/Prague.jpg",
@@ -99,6 +91,14 @@
               "Be sure to walk across the Charles Bridge and stop in the Old Town Square.",
               "Go out with the locals even though it probably won’t start until after midnight."
             ]
+          },
+          {
+            "cityName":"Moravia",
+            "image":"../img/Moravia.jpg"
+          },
+          {
+            "cityName":"Pilsen",
+            "image":"../img/Pilsen.jpg"
           }
         ]
     },
@@ -121,6 +121,16 @@
         "countryName":"England",
         "topCities":[
           {
+            "cityName":"London",
+            "description":"As one of the world's most influential and powerful cities for many centuries, London's culture and history speaks for itself.",
+            "image":"../img/London.jpg",
+            "sites": [
+              "Stop by the many historically significant landmarks in town; definitely stop by Buckingham Palace,  Westminster Abbey, the London Bridge, the Tower of London and Big Ben.",
+              "Stop by some of the many museums: the Tate, the British Museum or the Churchill Museum.",
+              "Walk along the Thames before stopping at the Globe Theater to see Shakespeare’s famous theater."
+            ]
+          },
+          {
             "cityName":"Birmingham",
             "image":"../img/Birmingham.jpg"
           },
@@ -135,16 +145,6 @@
           {
             "cityName":"Liverpool",
             "image":"../img/Liverpool.jpg"
-          },
-          {
-            "cityName":"London",
-            "description":"As one of the world's most influential and powerful cities for many centuries, London's culture and history speaks for itself.",
-            "image":"../img/London.jpg",
-            "sites": [
-              "Stop by the many historically significant landmarks in town; definitely stop by Buckingham Palace,  Westminster Abbey, the London Bridge, the Tower of London and Big Ben.",
-              "Stop by some of the many museums: the Tate, the British Museum or the Churchill Museum.",
-              "Walk along the Thames before stopping at the Globe Theater to see Shakespeare’s famous theater."
-            ]
           },
           {
             "cityName":"Oxford",
@@ -190,6 +190,16 @@
         "countryName":"France",
         "topCities":[
           {
+            "cityName":"Paris",
+            "description":"Paris the the city of love, but is also the city of art, high fashion, culture and cuisine.",
+            "image":"../img/Paris.jpg",
+            "sites": [
+              "Climb the Eiffel Tower to view the city, take the stairs if you dare.",
+              "Explore the Louvre and the Musee d’Orsay; key pieces are the Mona Lisa and all of the impressionist work.",
+              "Sail down the Seine at sunset to see the city light up."
+            ]
+          },
+          {
             "cityName":"Aix-en-Provence",
             "image":"../img/Aix-en-Provence.jpg"
           },
@@ -228,16 +238,6 @@
           {
             "cityName":"Nice",
             "image":"../img/Nice.jpg"
-          },
-          {
-            "cityName":"Paris",
-            "description":"Paris the the city of love, but is also the city of art, high fashion, culture and cuisine.",
-            "image":"../img/Paris.jpg",
-            "sites": [
-              "Climb the Eiffel Tower to view the city, take the stairs if you dare.",
-              "Explore the Louvre and the Musee d’Orsay; key pieces are the Mona Lisa and all of the impressionist work.",
-              "Sail down the Seine at sunset to see the city light up."
-            ]
           },
           {
             "cityName":"St. Tropez",
@@ -368,10 +368,6 @@
         "countryName":"Ireland",
         "topCities":[
           {
-            "cityName":"Cork",
-            "image":"../img/Cork.jpg"
-          },
-          {
             "cityName":"Dublin",
             "description":"Dublin has lots to do for any interest between its five quarters including culture, commerce and history.",
             "image":"../img/Dublin.jpg",
@@ -380,12 +376,26 @@
               "Go to the Guinness factory and sample the beer.",
               "Stop by the Temple bar area before heading to the Creative Quarter for some shopping."
             ]
+          },
+          {
+            "cityName":"Cork",
+            "image":"../img/Cork.jpg"
           }
         ]
     },
     {
         "countryName":"Italy",
         "topCities":[
+          {
+            "cityName":"Rome",
+            "description":"All roads lead to Rome for a reason; Rome has amazing ruins and history from the Roman empire, italian cuisine and the Catholic Vatican all within its bounds.",
+            "image":"../img/Rome.jpg",
+            "sites": [
+              "See the ancient sites: tour the Colosseum, Pantheon and Roman Forum at least. All the Roman ruins are worth seeing, but these in particular.",
+              "he Vatican: do the museum tour, it has amazing artwork and the Sistine Chapel.",
+              "Admire the artwork at the Borghese Gallery. It includes the amazing Apollo and Daphne and many other cool pieces."
+            ]
+          },
           {
             "cityName":"Amalfi Coast",
             "image":"../img/Amalfi.jpg"
@@ -421,16 +431,6 @@
           {
             "cityName":"Palermo",
             "image":"../img/Palermo.jpg"
-          },
-          {
-            "cityName":"Rome",
-            "description":"All roads lead to Rome for a reason; Rome has amazing ruins and history from the Roman empire, italian cuisine and the Catholic Vatican all within its bounds.",
-            "image":"../img/Rome.jpg",
-            "sites": [
-              "See the ancient sites: tour the Colosseum, Pantheon and Roman Forum at least. All the Roman ruins are worth seeing, but these in particular.",
-              "he Vatican: do the museum tour, it has amazing artwork and the Sistine Chapel.",
-              "Admire the artwork at the Borghese Gallery. It includes the amazing Apollo and Daphne and many other cool pieces."
-            ]
           },
           {
             "cityName":"Trieste",
@@ -510,14 +510,6 @@
         "countryName":"Poland",
         "topCities":[
           {
-            "cityName":"Gdansk & Sopot",
-            "image":"../img/Gdansk.jpg"
-          },
-          {
-            "cityName":"Krakow",
-            "image":"../img/Krakow.jpg"
-          },
-          {
             "cityName":"Warsaw",
             "description":"Having been reconstructed after WWII, Warsaw is a mixture of the older remaining buildings and the new.",
             "image":"../img/Warsaw.jpg",
@@ -526,16 +518,20 @@
               "Visit the Museum of Warsaw Uprising that commemorates the rebuilding of the city after WWII.",
               "Go to Praga to see art as well as some of the oldest building in the city."
             ]
+          },
+          {
+            "cityName":"Gdansk & Sopot",
+            "image":"../img/Gdansk.jpg"
+          },
+          {
+            "cityName":"Krakow",
+            "image":"../img/Krakow.jpg"
           }
         ]
     },
     {
         "countryName":"Portugal",
         "topCities":[
-          {
-            "cityName":"Evora",
-            "image":"../img/Evora.jpg"
-          },
           {
             "cityName":"Lisbon",
             "description":"With exciting culture, a coast, and a beautiful city, there is much to love in Lisbon.",
@@ -547,8 +543,12 @@
             ]
           },
           {
-            "cityName":"Madiera",
-            "image":"../img/Madiera.jpg"
+            "cityName":"Evora",
+            "image":"../img/Evora.jpg"
+          },
+          {
+            "cityName":"Madeira",
+            "image":"../img/Madeira.jpg"
           },
           {
             "cityName":"Porto",
@@ -561,11 +561,13 @@
         "topCities":[
           {
             "cityName":"Bucharest",
+            "description":"The capital of Romania was once called Little Paris before WWII took its effect on the city, but today it is known for its contemporary arts scene and.",
             "image":"../img/Bucharest.jpg",
             "sites": [
-              "",
-              "",
-              ""
+              "Learn about the impact of WWII on the city by visiting the Jewish History Museum as well as by looking for the remains of the city from before the war.",
+              "See the world's second largest building when you check out the Palace of Parliament.",
+              "Find some of the amazing Romanian art in the National Museum of Contemporary Art."
+
             ]
           }
         ]
