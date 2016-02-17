@@ -8,6 +8,7 @@ app.controller('BaseController', function() {
 app.controller('CountryController', ['$http', function($http) {
 
   this.countries = [];
+  this.activeCountry = "";
   var _this = this;
 
   $http.get('/js/europe.json')

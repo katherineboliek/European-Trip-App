@@ -26,9 +26,9 @@
             <div class="row" ng-controller="CountryController as countryCtrl">
                 <div class="col-xs-12">
 
-                      <select class="form-control">
+                      <select class="form-control" ng-model="countryCtrl.activeCountry">
 
-                        <option value="0" selected>Select a Country</option>
+                        <option value="" selected>Select a Country</option>
 
                         <option ng-repeat="country in countryCtrl.countries" value="{{country.countryName}}">{{country.countryName}}</option>
 
@@ -36,7 +36,7 @@
 
                 </div>
 
-                <div ng-repeat="country in countryCtrl.countries" class="col-xs-12">
+                <div ng-repeat="country in countryCtrl.countries | filter:countryCtrl.activeCountry" class="col-xs-12">
                   <h2>{{country.countryName}}</h2>
                   <div class="row" ng-repeat="city in country.topCities">
                     <div class="col-md-6">
