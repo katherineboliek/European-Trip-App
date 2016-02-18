@@ -372,7 +372,7 @@
             "description":"Dublin has lots to do for any interest between its five quarters including culture, commerce and history.",
             "image":"../img/Dublin.jpg",
             "sites": [
-              "Tour the distinct Georgian doors throughout the city.",
+              "Tour the distinct doors throughout the city.",
               "Go to the Guinness factory and sample the beer.",
               "Stop by the Temple bar area before heading to the Creative Quarter for some shopping."
             ]
@@ -638,7 +638,7 @@
         "topCities":[
           {
             "cityName":"Ljubljana",
-            "description":"Injected with culture from Italy, Austria, and Yugoslavia and filled with students, Ljubljana is a lively city to visit.",
+            "description":"Injected with culture from many other European nations and filled with students, Ljubljana is a lively city to visit.",
             "image":"../img/Ljubljana.jpg",
             "sites": [
               "Visit Metelkova City for the arts scene and the nightlife.",
@@ -715,6 +715,16 @@
         "countryName":"Sweden",
         "topCities":[
           {
+            "cityName":"Stockholm",
+            "description":"Stockholm is a city full of nature as well as Nordic culture.",
+            "image":"../img/Stockholm.jpg",
+            "sites": [
+              "Sail through the archipelago's islands.",
+              "Wander through Gamla stan, the old town of Stockholm and take in the architecture and history.",
+              "Learn about Viking ships at the Vasa Museum."
+            ]
+          },
+          {
             "cityName":"Goteborg",
             "image":"../img/Goteborg.jpg"
           },
@@ -725,22 +735,22 @@
           {
             "cityName":"Lund & the Swedish Riviera",
             "image":"../img/Lund.jpg"
-          },
-          {
-            "cityName":"Stockholm",
-            "description":"Stockholm is a city full of nature as well as Nordic culture.",
-            "image":"../img/Stockholm.jpg",
-            "sites": [
-              "Sail through the archipelago's islands.",
-              "Wander through Gamla stan, the old town of Stockholm and take in the architecture and history.",
-              "Learn about Viking ships at the Vasa Museum."
-            ]
           }
         ]
     },
     {
         "countryName":"Switzerland",
         "topCities":[
+          {
+            "cityName":"Zurich",
+            "description":"Zurich is known for its economic focus, but also boasts great nightlife and culture.",
+            "image":"../img/Zurich.jpg",
+            "sites": [
+              "Take a boat ride on Lake Zurich to soak in the natural beauty surrounding the city.",
+              "Walk along the Limmat with the runners and check out the architecture as you go.",
+              "Try the Swiss chocolate and cheese fondue for a meal."
+            ]
+          },
           {
             "cityName":"Basel",
             "image":"../img/Basel.jpg"
@@ -760,22 +770,22 @@
           {
             "cityName":"Zermatt",
             "image":"../img/Zermatt.jpg"
-          },
-          {
-            "cityName":"Zurich",
-            "description":"Zurich is known for its economic focus, but also boasts great nightlife and culture.",
-            "image":"../img/Zurich.jpg",
-            "sites": [
-              "Take a boat ride on Lake Zurich to soak in the natural beauty surrounding the city.",
-              "Walk along the Limmat with the runners and check out the architecture as you go.",
-              "Try the Swiss chocolate and cheese fondue for a meal."
-            ]
           }
         ]
     },
     {
         "countryName":"Turkey",
         "topCities":[
+          {
+            "cityName":"Istanbul",
+            "description":"As the city situated between two continents and many cultures, Istabul boasts a very diverse and multicultural experience.",
+            "image":"../img/Istanbul.jpg",
+            "sites": [
+              "Go to the Hagia Sophia, a beautiful building which used to be a catholic church before it was converted into a mosque, now remaining a museum that is truly representative of the cross-cultural nature of the city.",
+              "Visit the Grand Bazaar to find amazing goods and see some the most beautiful artisanal work in the city.",
+              "Head to the Golden Horn, the division between the modern and ancient parts of Istanbul and take a boat ride between the two sides. "
+            ]
+          },
           {
             "cityName":"Bodrum",
             "image":"../img/Bodrum.jpg"
@@ -787,16 +797,6 @@
           {
             "cityName":"Ephesus",
             "image":"../img/Ephesus.jpg"
-          },
-          {
-            "cityName":"Istanbul",
-            "description":"As the city situated between two continents and many cultures, Istabul boasts a very diverse and multicultural experience.",
-            "image":"../img/Istanbul.jpg",
-            "sites": [
-              "Go to the Hagia Sophia, a beautiful building which used to be a catholic church before it was converted into a mosque, now remaining a museum that is truly representative of the cross-cultural nature of the city.",
-              "Visit the Grand Bazaar to find amazing goods and see some the most beautiful artisanal work in the city.",
-              "Head to the Golden Horn, the division between the modern and ancient parts of Istanbul and take a boat ride between the two sides. "
-            ]
           }
         ]
     },

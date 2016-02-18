@@ -23,8 +23,9 @@
                     <p>{{ base.message }}</p>
                 </div>
             </div>
-            <div class="row" ng-controller="CountryController as countryCtrl">
-                <div class="col-xs-12">
+            <div ng-controller="CountryController as countryCtrl">
+              <div class="row">
+                <div class="col-xs-10">
 
                       <select class="form-control" ng-model="countryCtrl.activeCountry">
 
@@ -33,10 +34,12 @@
                         <option ng-repeat="country in countryCtrl.countries" value="{{country.countryName}}">{{country.countryName}}</option>
 
                       </select>
-
                 </div>
-
-                <div ng-repeat="country in countryCtrl.countries | filter:countryCtrl.activeCountry" class="col-xs-12">
+                <div class="col-xs-2">
+                  <button ng-click="countryCtrl.toggle()">Reverse Country Order</button>
+                </div>
+              </div>
+                <div ng-repeat="country in countryCtrl.countries | orderBy:'-countryName':countryCtrl.direction | filter:countryCtrl.activeCountry" class="col-xs-12">
                   <h2>{{country.countryName}}</h2>
                   <div class="row" ng-repeat="city in country.topCities">
                     <div class="col-md-6">
@@ -53,7 +56,6 @@
                     </div>
                   </div>
                 </div>
-            </div>
 
         </div>
 
