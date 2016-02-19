@@ -31,7 +31,7 @@ ol{
 }
 /*map styles*/
 .map {
-    width: 500px; margin:0px auto
+    width: 500px; float:right;
 }
 /*stacks map pieces on top of each other*/
 .map-stack {
@@ -113,9 +113,21 @@ button:hover {
   background:#001774;
 }
 
+button:focus {
+  outline: none;
+}
+
+.form-control:focus {
+  outline: none;
+}
+
 /*makes up for map space*/
+.top {
+  margin-bottom: 250px;
+}
+
 .start {
-  margin-top:500px;
+  margin-top:0px;
 }
 
 .cardstyle {
@@ -125,14 +137,37 @@ button:hover {
   padding-top: 55px;
 }
 
+/*vertical alignment within the div*/
 .info {
   display: flex;
   align-items: center;
   justify-content: center;
-} /*vertical alignment within the div*/
+}
+
+/*footer*/
+.foot {
+  padding: 0.5em;
+}
+
+.foot, .foot a, .foot p {
+  color: #0057c0;
+  text-align: center;
+  font-family: 'Average', serif;
+  font-size: 12px;
+}
 
 /*media queries*/
 @media only screen and (max-width: 990px) {
+  .map {
+    float: none;
+    margin:0px auto;
+  }
+  .top {
+    margin-bottom: 0px;
+  }
+  .start {
+    margin-top:500px;
+  }
   .cardstyle {
     margin-bottom: 50px;
   }
