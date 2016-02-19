@@ -20,4 +20,5 @@ app.controller('CountryController', ['$http', function($http) {
       console.log("This request failed.\n");
     });
 
+<!--add todo function with loop if (sites[0]!= null) true else false-->
 }]);

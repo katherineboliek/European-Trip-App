@@ -72,7 +72,7 @@
                 </div>
               </figure>
             </div>
-            <!--into paragraph-->
+            <!--intro paragraph-->
             <div class="row start">
                 <div class="col-xs-12">
                     <h1>The Ultimate European Tour</h3>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="col-md-6">
                   <p class="descript">{{city.description}}</p>
-                  <ol>
+                  <ol ng-if="city.sites!==undefined">
                     <li>{{city.sites[0]}}</li>
                     <li>{{city.sites[1]}}</li>
                     <li>{{city.sites[2]}}</li>
