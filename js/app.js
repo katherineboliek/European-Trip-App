@@ -1,9 +1,5 @@
 var app = angular.module('myApp', []);
 
-app.controller('BaseController', function() {
-
-    this.message = "Ready";
-});
 
 app.controller('CountryController', ['$http', function($http) {
 

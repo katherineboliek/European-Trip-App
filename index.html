@@ -10,54 +10,109 @@
         <!-- css -->
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="continental/css/continental.css"/>
     </head>
 
     <body ng-app="myApp">
 
-        <div class="container" ng-controller="BaseController as base">
-
+        <div class="container" ng-controller="CountryController as countryCtrl">
+            <!--continental map-->
             <div class="row">
+              <figure class="map">
+                <div class="map-stack">
+                  <span class="map-ad"></span>
+                  <span class="map-at"></span>
+                  <span class="map-ba"></span>
+                  <span class="map-be"></span>
+                  <span class="map-bg"></span>
+                  <span class="map-by"></span>
+                  <span class="map-ch"></span>
+                  <span class="map-cy"></span>
+                  <span class="map-cz"></span>
+                  <span class="map-de"></span>
+                  <span class="map-dk"></span>
+                  <span class="map-ee"></span>
+                  <span class="map-es"></span>
+                  <span class="map-fi"></span>
+                  <span class="map-fo"></span>
+                  <span class="map-fr"></span>
+                  <span class="map-ge"></span>
+                  <span class="map-gg"></span>
+                  <span class="map-gr"></span>
+                  <span class="map-hr"></span>
+                  <span class="map-hu"></span>
+                  <span class="map-ie"></span>
+                  <span class="map-im"></span>
+                  <span class="map-is"></span>
+                  <span class="map-it"></span>
+                  <span class="map-je"></span>
+                  <span class="map-li"></span>
+                  <span class="map-lt"></span>
+                  <span class="map-lu"></span>
+                  <span class="map-lv"></span>
+                  <span class="map-mc"></span>
+                  <span class="map-md"></span>
+                  <span class="map-me"></span>
+                  <span class="map-mk"></span>
+                  <span class="map-mt"></span>
+                  <span class="map-nl"></span>
+                  <span class="map-no"></span>
+                  <span class="map-pl"></span>
+                  <span class="map-pt"></span>
+                  <span class="map-ro"></span>
+                  <span class="map-rs"></span>
+                  <span class="map-ru"></span>
+                  <span class="map-se"></span>
+                  <span class="map-si"></span>
+                  <span class="map-sk"></span>
+                  <span class="map-tr"></span>
+                  <span class="map-ua"></span>
+                  <span class="map-uk"></span>
+                  <span ng-repeat="country in countryCtrl.countries | filter:countryCtrl.activeCountry" class="map-{{country.countryCode}} bright"></span>
+                </div>
+              </figure>
+            </div>
+            <!--into paragraph-->
+            <div class="row start">
                 <div class="col-xs-12">
                     <h1>The Ultimate European Tour</h3>
                     <p>Everyone has their list of all the places you need to visit across Europe. This is a compilation of all the most popular destinations. Select a country to see the top places to visit and what to do at the #1 destination in the country.</p>
-                    <p>{{ base.message }}</p>
                 </div>
             </div>
-            <div ng-controller="CountryController as countryCtrl">
-              <div class="row">
-                <div class="col-xs-10">
+            <div class="row">
+              <!--Dropdown menu here-->
+              <div class="col-xs-10">
 
-                      <select class="form-control" ng-model="countryCtrl.activeCountry">
+                    <select class="form-control" ng-model="countryCtrl.activeCountry">
 
-                        <option value="" selected>Select a Country</option>
+                      <option value="" selected>Select a Country</option>
 
-                        <option ng-repeat="country in countryCtrl.countries" value="{{country.countryName}}">{{country.countryName}}</option>
+                      <option ng-repeat="country in countryCtrl.countries" value="{{country.countryName}}">{{country.countryName}}</option>
 
-                      </select>
+                    </select>
+              </div>
+              <!--Order Toggle Switch-->
+              <div class="col-xs-2">
+                <button ng-click="countryCtrl.toggle()">Reverse Country Order</button>
+              </div>
+            </div>
+              <!---->
+            <div ng-repeat="country in countryCtrl.countries | orderBy:'-countryName':countryCtrl.direction | filter:countryCtrl.activeCountry" class="col-xs-12">
+              <h2>{{country.countryName}}</h2>
+              <div class="row" ng-repeat="city in country.topCities">
+                <div class="col-md-6">
+                  <h3>{{city.cityName}}</h3>
+                  <img ng-src="{{city.image}}" height=250px />
                 </div>
-                <div class="col-xs-2">
-                  <button ng-click="countryCtrl.toggle()">Reverse Country Order</button>
+                <div class="col-md-6">
+                  <p class="descript">{{city.description}}</p>
+                  <ol>
+                    <li>{{city.sites[0]}}</li>
+                    <li>{{city.sites[1]}}</li>
+                    <li>{{city.sites[2]}}</li>
+                  </ol>
                 </div>
               </div>
-                <div ng-repeat="country in countryCtrl.countries | orderBy:'-countryName':countryCtrl.direction | filter:countryCtrl.activeCountry" class="col-xs-12">
-                  <h2>{{country.countryName}}</h2>
-                  <div class="row" ng-repeat="city in country.topCities">
-                    <div class="col-md-6">
-                      <h3>{{city.cityName}}</h3>
-                      <img ng-src="{{city.image}}" height=250px />
-                    </div>
-                    <div class="col-md-6">
-                      <p class="descript">{{city.description}}</p>
-                      <ol>
-                        <li>{{city.sites[0]}}</li>
-                        <li>{{city.sites[1]}}</li>
-                        <li>{{city.sites[2]}}</li>
-                      </ol>
-                    </div>
-                  </div>
-                </div>
-
-        </div>
-
+            </div>
     </body>
 </html>

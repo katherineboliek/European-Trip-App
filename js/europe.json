@@ -1,6 +1,7 @@
 [
     {
         "countryName":"Austria",
+        "countryCode":"at",
         "topCities":[
           {
             "cityName":"Vienna",
@@ -20,6 +21,7 @@
     },
     {
         "countryName":"Belgium",
+        "countryCode":"be",
         "topCities":[
           {
             "cityName":"Brussels",
@@ -43,6 +45,7 @@
     },
     {
         "countryName":"Bulgaria",
+        "countryCode":"bg",
         "topCities":[
           {
             "cityName":"Sofia",
@@ -58,6 +61,7 @@
     },
     {
         "countryName":"Croatia",
+        "countryCode":"hr",
         "topCities":[
           {
             "cityName":"Dubrovnik",
@@ -81,6 +85,7 @@
     },
     {
         "countryName":"Czech Republic",
+        "countryCode":"cz",
         "topCities":[
           {
             "cityName":"Prague",
@@ -104,6 +109,7 @@
     },
     {
         "countryName":"Denmark",
+        "countryCode":"dk",
         "topCities":[
           {
             "cityName":"Copenhagen",
@@ -119,6 +125,7 @@
     },
     {
         "countryName":"England",
+        "countryCode":"uk",
         "topCities":[
           {
             "cityName":"London",
@@ -154,6 +161,7 @@
     },
     {
         "countryName":"Estonia",
+        "countryCode":"ee",
         "topCities":[
           {
             "cityName":"Tallinn",
@@ -169,6 +177,7 @@
     },
     {
         "countryName":"Finland",
+        "countryCode":"fi",
         "topCities":[
           {
             "cityName":"Helsinki",
@@ -188,6 +197,7 @@
     },
     {
         "countryName":"France",
+        "countryCode":"fr",
         "topCities":[
           {
             "cityName":"Paris",
@@ -251,6 +261,7 @@
     },
     {
         "countryName":"Georgia",
+        "countryCode":"ge",
         "topCities":[
           {
             "cityName":"Tbilisi",
@@ -266,6 +277,7 @@
     },
     {
         "countryName":"Germany",
+        "countryCode":"de",
         "topCities":[
           {
             "cityName":"Berlin",
@@ -313,6 +325,7 @@
     },
     {
         "countryName":"Greece",
+        "countryCode":"gr",
         "topCities":[
           {
             "cityName":"Athens",
@@ -336,6 +349,7 @@
     },
     {
         "countryName":"Hungary",
+        "countryCode":"hu",
         "topCities":[
           {
             "cityName":"Budapest",
@@ -351,6 +365,7 @@
     },
     {
         "countryName":"Iceland",
+        "countryCode":"is",
         "topCities":[
           {
             "cityName":"Reykjavik",
@@ -366,6 +381,7 @@
     },
     {
         "countryName":"Ireland",
+        "countryCode":"ie",
         "topCities":[
           {
             "cityName":"Dublin",
@@ -385,6 +401,7 @@
     },
     {
         "countryName":"Italy",
+        "countryCode":"it",
         "topCities":[
           {
             "cityName":"Rome",
@@ -444,6 +461,7 @@
     },
     {
         "countryName":"Latvia",
+        "countryCode":"lv",
         "topCities":[
           {
             "cityName":"Riga",
@@ -459,6 +477,7 @@
     },
     {
         "countryName":"Lithuania",
+        "countryCode":"lt",
         "topCities":[
           {
             "cityName":"Vilnius",
@@ -474,6 +493,7 @@
     },
     {
         "countryName":"Netherlands",
+        "countryCode":"nl",
         "topCities":[
           {
             "cityName":"Amsterdam",
@@ -493,6 +513,7 @@
     },
     {
         "countryName":"Norway",
+        "countryCode":"no",
         "topCities":[
           {
             "cityName":"Oslo",
@@ -508,6 +529,7 @@
     },
     {
         "countryName":"Poland",
+        "countryCode":"pl",
         "topCities":[
           {
             "cityName":"Warsaw",
@@ -531,6 +553,7 @@
     },
     {
         "countryName":"Portugal",
+        "countryCode":"pt",
         "topCities":[
           {
             "cityName":"Lisbon",
@@ -558,6 +581,7 @@
     },
     {
         "countryName":"Romania",
+        "countryCode":"ro",
         "topCities":[
           {
             "cityName":"Bucharest",
@@ -574,6 +598,7 @@
     },
     {
         "countryName":"Russia",
+        "countryCode":"ru",
         "topCities":[
           {
             "cityName":"Moscow",
@@ -597,6 +622,7 @@
     },
     {
         "countryName":"Scotland",
+        "countryCode":"uk",
         "topCities":[
           {
             "cityName":"Edinburgh",
@@ -620,6 +646,7 @@
     },
     {
         "countryName":"Slovakia",
+        "countryCode":"sk",
         "topCities":[
           {
             "cityName":"Bratislava",
@@ -635,6 +662,7 @@
     },
     {
         "countryName":"Slovenia",
+        "countryCode":"si",
         "topCities":[
           {
             "cityName":"Ljubljana",
@@ -654,6 +682,7 @@
     },
     {
         "countryName":"Spain",
+        "countryCode":"es",
         "topCities":[
           {
             "cityName":"Barcelona",
@@ -713,6 +742,7 @@
     },
     {
         "countryName":"Sweden",
+        "countryCode":"se",
         "topCities":[
           {
             "cityName":"Stockholm",
@@ -740,6 +770,7 @@
     },
     {
         "countryName":"Switzerland",
+        "countryCode":"ch",
         "topCities":[
           {
             "cityName":"Zurich",
@@ -775,6 +806,7 @@
     },
     {
         "countryName":"Turkey",
+        "countryCode":"tr",
         "topCities":[
           {
             "cityName":"Istanbul",
@@ -802,6 +834,7 @@
     },
     {
         "countryName":"Ukraine",
+        "countryCode":"ua",
         "topCities":[
           {
             "cityName":"Kiev",
@@ -821,6 +854,7 @@
     },
     {
         "countryName":"Wales",
+        "countryCode":"uk",
         "topCities":[
           {
             "cityName":"Cardiff",

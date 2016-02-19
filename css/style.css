@@ -1,3 +1,74 @@
+.map {
+    width: 500px; margin:0px auto
+}
+
+.map-stack {
+     position: relative;
+ }
+
+ .map-stack > [class*="map-"] {
+     position: absolute;
+     top: 0;
+     left: 0;
+     font-size: 500px;
+ }
+/*color features of map start*/
+.map-ad,.map-al,.map-ba,.map-by,.map-cy,.map-fo,.map-gg,.map-im,.map-je,.map-li,.map-lu,.map-mc,.map-md,.map-me,.map-mk,.map-mt,.map-rs,.map-sm {
+  color: #5e5e5e;
+  ; opacity: 0.5;
+}
+.map-at {color:#272767; opacity: 0.5;}
+.map-be {color:#161648; opacity: 0.5;}
+.map-bg {color:#20584B; opacity: 0.5;}
+.map-ch {color:#61B1A8; opacity: 0.5;}
+.map-cz {color:#7B2155; opacity: 0.5;}
+.map-de {color:#722478; opacity: 0.5;}
+.map-dk {color:#5D1427; opacity: 0.5;}
+.map-ee {color:#402377; opacity: 0.5;}
+.map-es {color:#272767; opacity: 0.5;}
+.map-fi {color:#243C5E; opacity: 0.5;}
+.map-fr {color:#20584B; opacity: 0.5;}
+.map-ge {color:#103E17; opacity: 0.5;}
+.map-gr {color:#161648; opacity: 0.5;}
+.map-hr {color:#2A4A71; opacity: 0.5;}
+.map-hu {color:#5D1427; opacity: 0.5;}
+.map-ie {color:#5D1427; opacity: 0.5;}
+.map-is {color:#61B1A8; opacity: 0.5;}
+.map-it {color:#6767B1; opacity: 0.5;}
+.map-lt {color:#6767B1; opacity: 0.5;}
+.map-lv {color:#8E3893; opacity: 0.5;}
+.map-nl {color:#7C4FAC; opacity: 0.5;}
+.map-no {color:#6767B1; opacity: 0.5;}
+.map-pl {color:#487594; opacity: 0.5;}
+.map-pt {color:#61B1A8; opacity: 0.5;}
+.map-ro {color:#61B1A8; opacity: 0.5;}
+.map-ru {color:#722478; opacity: 0.5;}
+.map-se {color:#20584B; opacity: 0.5;}
+.map-si {color:#20584B; opacity: 0.5;}
+.map-sk {color:#3E1E71; opacity: 0.5;}
+.map-tr {color:#3E1E71; opacity: 0.5;}
+.map-ua {color:#161648; opacity: 0.5;}
+.map-uk {color:#2A4A71; opacity: 0.5;}
+
+.map-ad,.map-al,.map-at,.map-ba,.map-be,.map-bg,.map-by,.map-ch,.map-cy,.map-cz,
+.map-de,.map-dk,.map-ee,.map-es,.map-fi,.map-fo,.map-fr,.map-ge,.map-gg,.map-gr,
+.map-hr,.map-hu,.map-ie,.map-im,.map-is,.map-it,.map-je,.map-li,.map-lt,.map-lu,
+.map-lv,.map-mc,.map-md,.map-me,.map-mk,.map-mt,.map-nl,.map-no,.map-pl,.map-pt,
+.map-ro,.map-rs,.map-ru,.map-se,.map-si,.map-sk,.map-sm,.map-tr,.map-ua,.map-uk,
+.map-va, {
+
+}
+
+.bright {
+  opacity: 1;
+}
+
+/*color features of map end*/
+
+.start {
+  margin-top:500px;
+}
+
 .info {
   display: flex;
   align-items: center;
@@ -7,4 +78,9 @@
 
 .descript {
   font-weight: bold;
+}
+
+
+.bright {
+  opacity: 100%;
 }
