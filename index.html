@@ -11,6 +11,10 @@
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="continental/css/continental.css"/>
+        <!--google fonts-->
+        <link href='https://fonts.googleapis.com/css?family=Fjalla+One|Average' rel='stylesheet' type='text/css'>
+        <!--font awesome-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     </head>
 
     <body ng-app="myApp">
@@ -93,18 +97,18 @@
               </div>
               <!--Order Toggle Switch-->
               <div class="col-xs-2">
-                <button ng-click="countryCtrl.toggle()">Reverse Country Order</button>
+                <button ng-click="countryCtrl.toggle()"><i class="fa fa-arrows-v fa-lg"></i></button>
               </div>
             </div>
               <!---->
-            <div ng-repeat="country in countryCtrl.countries | orderBy:'-countryName':countryCtrl.direction | filter:countryCtrl.activeCountry" class="col-xs-12">
-              <h2>{{country.countryName}}</h2>
+            <div ng-repeat="country in countryCtrl.countries | orderBy:'-countryName':countryCtrl.direction | filter:countryCtrl.activeCountry" class="col-xs-12 cardstyle">
+              <h2 class="countrytitle">{{country.countryName}}</h2>
               <div class="row" ng-repeat="city in country.topCities">
                 <div class="col-md-6">
-                  <h3>{{city.cityName}}</h3>
-                  <img ng-src="{{city.image}}" height=250px />
+                  <h3 class="citytitle">{{city.cityName}}</h3>
+                  <img ng-src="{{city.image}}" width=100% />
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 content">
                   <p class="descript">{{city.description}}</p>
                   <ol ng-if="city.sites!==undefined">
                     <li>{{city.sites[0]}}</li>

@@ -1,7 +1,39 @@
+/*fonts*/
+h1,h2,h3,h4 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+p,li {
+  font-family: 'Average', serif;
+  font-size:18px;
+}
+
+ol{
+  padding-left:16px;
+  margin-left: 0px;
+}
+
+.descript {
+  font-size: 24px;
+}
+
+.countrytitle {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.citytitle {
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+/*map styles*/
 .map {
     width: 500px; margin:0px auto
 }
-
+/*stacks map pieces on top of each other*/
 .map-stack {
      position: relative;
  }
@@ -17,38 +49,38 @@
   color: #5e5e5e;
   ; opacity: 0.5;
 }
-.map-at {color:#272767; opacity: 0.5;}
-.map-be {color:#161648; opacity: 0.5;}
-.map-bg {color:#20584B; opacity: 0.5;}
-.map-ch {color:#61B1A8; opacity: 0.5;}
-.map-cz {color:#7B2155; opacity: 0.5;}
-.map-de {color:#722478; opacity: 0.5;}
-.map-dk {color:#5D1427; opacity: 0.5;}
-.map-ee {color:#402377; opacity: 0.5;}
-.map-es {color:#272767; opacity: 0.5;}
-.map-fi {color:#243C5E; opacity: 0.5;}
-.map-fr {color:#20584B; opacity: 0.5;}
-.map-ge {color:#103E17; opacity: 0.5;}
-.map-gr {color:#161648; opacity: 0.5;}
-.map-hr {color:#2A4A71; opacity: 0.5;}
-.map-hu {color:#5D1427; opacity: 0.5;}
-.map-ie {color:#5D1427; opacity: 0.5;}
-.map-is {color:#61B1A8; opacity: 0.5;}
-.map-it {color:#6767B1; opacity: 0.5;}
-.map-lt {color:#6767B1; opacity: 0.5;}
-.map-lv {color:#8E3893; opacity: 0.5;}
-.map-nl {color:#7C4FAC; opacity: 0.5;}
-.map-no {color:#6767B1; opacity: 0.5;}
-.map-pl {color:#487594; opacity: 0.5;}
-.map-pt {color:#61B1A8; opacity: 0.5;}
-.map-ro {color:#61B1A8; opacity: 0.5;}
-.map-ru {color:#722478; opacity: 0.5;}
-.map-se {color:#20584B; opacity: 0.5;}
-.map-si {color:#20584B; opacity: 0.5;}
-.map-sk {color:#3E1E71; opacity: 0.5;}
-.map-tr {color:#3E1E71; opacity: 0.5;}
-.map-ua {color:#161648; opacity: 0.5;}
-.map-uk {color:#2A4A71; opacity: 0.5;}
+.map-at {color:#006ef3; opacity: 0.5;}
+.map-be {color:#005174; opacity: 0.5;}
+.map-bg {color:#00EBF9; opacity: 0.5;}
+.map-ch {color:#001774; opacity: 0.5;}
+.map-cz {color:#00c0a9; opacity: 0.5;}
+.map-de {color:#0e3fff; opacity: 0.5;}
+.map-dk {color:#00638d; opacity: 0.5;}
+.map-ee {color:#0087c0; opacity: 0.5;}
+.map-es {color:#002cda; opacity: 0.5;}
+.map-fi {color:#00c0b9; opacity: 0.5;}
+.map-fr {color:#00ADB0; opacity: 0.5;}
+.map-ge {color:#0075a7; opacity: 0.5;}
+.map-gr {color:#0077c0; opacity: 0.5;}
+.map-hr {color:#0027c0; opacity: 0.5;}
+.map-hu {color:#0097f3; opacity: 0.5;}
+.map-ie {color:#00bff3; opacity: 0.5;}
+.map-is {color:#0099da; opacity: 0.5;}
+.map-it {color:#0097c9; opacity: 0.5;}
+.map-lt {color:#0022a7; opacity: 0.5;}
+.map-lv {color:#00b7c0; opacity: 0.5;}
+.map-nl {color:#00EBF0; opacity: 0.5;}
+.map-no {color:#0057c0; opacity: 0.5;}
+.map-pl {color:#006E70; opacity: 0.5;}
+.map-pt {color:#0083f3; opacity: 0.5;}
+.map-ro {color:#0037c0; opacity: 0.5;}
+.map-ru {color:#00d4f3; opacity: 0.5;}
+.map-se {color:#00abf3; opacity: 0.5;}
+.map-si {color:#00a7c0; opacity: 0.5;}
+.map-sk {color:#00494A; opacity: 0.5;}
+.map-tr {color:#0097c0; opacity: 0.5;}
+.map-ua {color:#006264; opacity: 0.5;}
+.map-uk {color:#0017c0; opacity: 0.5;}
 
 .map-ad,.map-al,.map-at,.map-ba,.map-be,.map-bg,.map-by,.map-ch,.map-cy,.map-cz,
 .map-de,.map-dk,.map-ee,.map-es,.map-fi,.map-fo,.map-fr,.map-ge,.map-gg,.map-gr,
@@ -65,8 +97,32 @@
 
 /*color features of map end*/
 
+/*navigation start*/
+button {
+  background:#0057c0;
+  color: #fff;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  border: none;
+  border-radius: 0.5em;
+  padding: 0.2em 1em 0.2em 1em;
+}
+
+button:hover {
+  background:#001774;
+}
+
+/*makes up for map space*/
 .start {
   margin-top:500px;
+}
+
+.cardstyle {
+  margin-bottom: 100px;
+}
+.content {
+  padding-top: 55px;
 }
 
 .info {
@@ -75,12 +131,33 @@
   justify-content: center;
 } /*vertical alignment within the div*/
 
-
-.descript {
-  font-weight: bold;
+/*media queries*/
+@media only screen and (max-width: 990px) {
+  .cardstyle {
+    margin-bottom: 50px;
+  }
+  .content {
+    padding-top: 25px;
+  }
 }
 
-
-.bright {
-  opacity: 100%;
+@media only screen and (max-width: 500px) {
+  .countrytitle {
+    font-size: 30px;
+  }
+  .citytitle {
+    font-size: 22px;
+  }
+  .descript {
+    font-size: 20px;
+  }
+  p,li {
+    font-size:16px;
+  }
+  .map {
+    display: none;
+  }
+  .start {
+    margin-top:0px;
+  }
 }
